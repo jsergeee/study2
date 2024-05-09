@@ -1,5 +1,5 @@
-﻿/* int a = 5;
-Console.WriteLine(a); */
+﻿// int a = 5;
+// Console.WriteLine(a);
 
 // Console.WriteLine("Input number: " );
 // int a = Convert.ToInt32(Console.ReadLine());
@@ -42,14 +42,13 @@ Console.WriteLine(a); */
 // трёхзначное целое число и на выходе показывает сумму
 // первой и последней цифры этого числа.
 
-Console.Write("Input three-digit number: ");
-int num = Convert.ToInt32(Console.ReadLine());
-if(num >=100 && num <= 999)
-{
-    int ed = num % 10;
-    int sot = num / 100;
-    Console.Write($"Sum of {ed} end {sot} -> {ed + sot}");
-}
-else
-Console.Write("You input not three-digit number: ");
-
+// Console.Write("Input three-digit number: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// if(num >=100 && num <= 999)
+// {
+//     int ed = num % 10;
+//     int sot = num / 100;
+//     Console.Write($"Sum of {ed} end {sot} -> {ed + sot}");
+// }
+// else
+// Console.Write("You input not three-digit number: ");
