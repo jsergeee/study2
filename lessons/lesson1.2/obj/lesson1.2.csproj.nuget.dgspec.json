@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Обучение в GB\\study2\\lessons\\lesson1.2\\lesson1.2.csproj": {}
+    "C:\\Users\\1\\Обучение в GB\\study2\\lessons\\lesson1.2\\lesson1.2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Обучение в GB\\study2\\lessons\\lesson1.2\\lesson1.2.csproj": {
+    "C:\\Users\\1\\Обучение в GB\\study2\\lessons\\lesson1.2\\lesson1.2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Обучение в GB\\study2\\lessons\\lesson1.2\\lesson1.2.csproj",
+        "projectUniqueName": "C:\\Users\\1\\Обучение в GB\\study2\\lessons\\lesson1.2\\lesson1.2.csproj",
         "projectName": "lesson1.2",
-        "projectPath": "C:\\Users\\User\\Обучение в GB\\study2\\lessons\\lesson1.2\\lesson1.2.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Обучение в GB\\study2\\lessons\\lesson1.2\\obj\\",
+        "projectPath": "C:\\Users\\1\\Обучение в GB\\study2\\lessons\\lesson1.2\\lesson1.2.csproj",
+        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1\\Обучение в GB\\study2\\lessons\\lesson1.2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

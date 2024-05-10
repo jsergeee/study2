@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("lesson1.2")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("lesson2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+308732ea92b5b22075ea290bd336ac7082172d8f")]
-[assembly: System.Reflection.AssemblyProductAttribute("lesson1.2")]
-[assembly: System.Reflection.AssemblyTitleAttribute("lesson1.2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c091b442a00064bcc3c3c38317fadbefea219b0")]
+[assembly: System.Reflection.AssemblyProductAttribute("lesson2")]
+[assembly: System.Reflection.AssemblyTitleAttribute("lesson2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
