@@ -26,7 +26,7 @@
 // }
 // if(o == '*')
 // {
-//     Console.Write($"Приозведеине {a} и {b} равно {a * b}");
+//     Console.Write($"Приозведение {a} и {b} равно {a * b}");
 // }
 // if (o == '/')
 // {
@@ -241,47 +241,47 @@
 //     Console.Write($"Число {num} -> {destys}dt, {tys}t, {sot}s, {des}d, {ed}e");
 // }
 
-Console.Write("Input N: ");
-int num = Convert.ToInt32(Console.ReadLine());
-int des1 = (num / 100) * 10;
-int sot1 = (num / 1000) * 10;
-int tys1 = (num / 10000) * 10;
-int ed = num % 10;
-int des = (num - ed) / 10 - des1;
-int sot = (num / 100) - sot1;
-int tys = (num / 1000) - tys1;
-int destys = (num / 10000);
-if (num > 0 && num <= 9)
-{
-    Console.Write($"{ed} ");
-}
-if (num > 10 && num <= 99)
-{
-    Console.Write($"{des}, ");
-    Console.Write($"{ed} ");
-}
-if (num > 99 && num <= 999)
-{
-    Console.Write($"{sot}, ");
-    Console.Write($"{des}, ");
-    Console.Write($"{ed} ");
-}
-if(num > 999 && num <= 9999)
-{
-    Console.Write($"{tys}, ");
-    Console.Write($"{sot}, ");
-    Console.Write($"{des}, ");
-    Console.Write($"{ed} ");
-}
+// Console.Write("Input N: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// int des1 = (num / 100) * 10;
+// int sot1 = (num / 1000) * 10;
+// int tys1 = (num / 10000) * 10;
+// int ed = num % 10;
+// int des = (num - ed) / 10 - des1;
+// int sot = (num / 100) - sot1;
+// int tys = (num / 1000) - tys1;
+// int destys = (num / 10000);
+// if (num > 0 && num <= 9)
+// {
+//     Console.Write($"{ed} ");
+// }
+// if (num > 10 && num <= 99)
+// {
+//     Console.Write($"{des}, ");
+//     Console.Write($"{ed} ");
+// }
+// if (num > 99 && num <= 999)
+// {
+//     Console.Write($"{sot}, ");
+//     Console.Write($"{des}, ");
+//     Console.Write($"{ed} ");
+// }
+// if(num > 999 && num <= 9999)
+// {
+//     Console.Write($"{tys}, ");
+//     Console.Write($"{sot}, ");
+//     Console.Write($"{des}, ");
+//     Console.Write($"{ed} ");
+// }
 
-if(num > 9999 && num <= 99999)
-{
-    Console.Write($"{destys}, ");
-    Console.Write($"{tys}, ");
-    Console.Write($"{sot}, ");
-    Console.Write($"{des}, ");
-    Console.Write($"{ed} ");
-}
+// if(num > 9999 && num <= 99999)
+// {
+//     Console.Write($"{destys}, ");
+//     Console.Write($"{tys}, ");
+//     Console.Write($"{sot}, ");
+//     Console.Write($"{des}, ");
+//     Console.Write($"{ed} ");
+// }
 
 
 

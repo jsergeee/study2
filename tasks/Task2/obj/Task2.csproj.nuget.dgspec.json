@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1\\Обучение в GB\\study2\\tasks\\Task1.1\\task1.1.csproj": {}
+    "C:\\Users\\1\\Обучение в GB\\study2\\tasks\\Task2\\Task2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1\\Обучение в GB\\study2\\tasks\\Task1.1\\task1.1.csproj": {
+    "C:\\Users\\1\\Обучение в GB\\study2\\tasks\\Task2\\Task2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\Обучение в GB\\study2\\tasks\\Task1.1\\task1.1.csproj",
-        "projectName": "task1.1",
-        "projectPath": "C:\\Users\\1\\Обучение в GB\\study2\\tasks\\Task1.1\\task1.1.csproj",
+        "projectUniqueName": "C:\\Users\\1\\Обучение в GB\\study2\\tasks\\Task2\\Task2.csproj",
+        "projectName": "Task2",
+        "projectPath": "C:\\Users\\1\\Обучение в GB\\study2\\tasks\\Task2\\Task2.csproj",
         "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\Обучение в GB\\study2\\tasks\\Task1.1\\obj\\",
+        "outputPath": "C:\\Users\\1\\Обучение в GB\\study2\\tasks\\Task2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config"
