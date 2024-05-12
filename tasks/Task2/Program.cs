@@ -138,51 +138,109 @@
 
 // // Метод по созданию массива
 
-// int[] CreateArray(int size, int min, int max)
-// {
-//     int[] array = new int[size];
-//     for (int i = 0; i < size; i++)
-//     {
-//        array[i] = new Random().Next(min, max + 1);
-//     }
-//     return array;
-// }
+int[] CreateArray(int size, int min, int max)
+{
+    
+    int[] array = new int[size];
+   
+    for (int i = 0; i < size; i++)
+    {
+        array[i] = new Random().Next(min, max + 1);
+    }
+    return array;
+    
+}
 
-// void PrintArray(int[] array)
+void PrintArray(int[] array) // Метод вывод массива в консоль
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        //System.Console.WriteLine($" Индекс массива: {i}");
+        System.Console.Write(array[i] + " ");
+        
+    }
+}
+
+// void Quant (int[] array) // пытался переделать на подсчет количества четных элементов в массиве, это кол-во четных
 // {
+//     int qant = 0;
 //     for (int i = 0; i < array.Length; i++)
 //     {
-//         System.Console.Write(array[i] + " ");
+//         if (array[i] % 1 == 0)
+//         {
+//             qant++;
+//         }
 //     }
+//     System.Console.WriteLine($"Количество четных элементов в массиве: {qant}");
 // }
-// bool FindNumInArray(int[] array, int nun)
+
+void QuantElements(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        System.Console.WriteLine($" Индекс массива: {i}");
+    }
+}
+    
+
+
+
+// bool FindNumInArray(int[] array, int nun) // метод для поиска числа в массиве если закомментить, но вывод массива будет работать сам
 // {
 //     for (int i = 0; i < array.Length; i++)
 //     {
 //         if (array[i] == nun)
 //         {
 //             return true;
+//  
 //         }
 //     }
 //     return false;
 // }
 
-// System.Console.WriteLine("Input arrray sise: ");
-// int size = Convert.ToInt32(Console.ReadLine());
-// System.Console.Write("Input minimal value of arr element: ");
-// int min = Convert.ToInt32(Console.ReadLine());
-// System.Console.Write("Input maximal value of arr element: ");
-// int max = Convert.ToInt32(Console.ReadLine());
+// int GetSumOfElements(int[] array) // сумма элеметов в массиве, взял из лекции для пробы
 
-// int[] array = CreateArray(size, min, max);
-// PrintArray(array);
+// {
+//     int result = 0;
+//     foreach (int e in array)
+//     {
+//         result = result + e;        
+//     }
+//     return result;
+// }
 
-// System.Console.WriteLine();
+// int GetQantOfElements(int[] array) // пробовал foreach получилоась просто вывести массив
+// {
+//     int element = 0;
+//     foreach (int i in array)
+//     {
+//         Console.Write($" foreach: {i} ");
+//     }
+//     return element;
 
-// System.Console.WriteLine("Input number: ");
-// int num = Convert.ToInt32(Console.ReadLine());
+// }
 
-// System.Console.WriteLine(FindNumInArray(array, num));
+
+System.Console.WriteLine("Input arrray sise: ");
+int size = Convert.ToInt32(Console.ReadLine());
+System.Console.Write("Input minimal value of arr element: ");
+int min = Convert.ToInt32(Console.ReadLine());
+System.Console.Write("Input maximal value of arr element: ");
+int max = Convert.ToInt32(Console.ReadLine());
+int[] array = CreateArray(size, min, max); // Сам массив без него не работает
+PrintArray(array);
+Console.WriteLine(); //чтобы начать сновой строки
+// System.Console.WriteLine("Input number: "); // для поиска числа в массиве
+// int num = Convert.ToInt32(Console.ReadLine()); // для поиска числа в массиве
+//System.Console.WriteLine(FindNumInArray(array, num)); // для поиска числа в массиве
+// Console.WriteLine(GetSumOfElements (array)); // сумма элеметов в массиве вывелось полько через Console.WriteLine
+// GetQantOfElements(array); не выводит ничего выводит Console.Write($" foreach: {i} "); в самом методе
+Console.WriteLine (array.Length); //
+// Quant(array);
+QuantElements (array);
+
+
+
 
 
 // Задайте массив из 10 элементов, заполненный числами из
@@ -309,3 +367,6 @@
 // числа должен располагаться на 0-м индексе
 // массива, младший – на последнем. Размер массива
 // должен быть равен количеству цифр.
+
+
+
